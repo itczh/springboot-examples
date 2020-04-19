@@ -1,11 +1,11 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1/springboot_simples
+    url: jdbc:mysql://127.0.0.1/springboot_examples
     username: root
     password: root
 mybatis:
   mapper-locations: mapper/*.xml
-  type-aliases-package: com.chenzhenhu.springboot.mybatis.entity
+  type-aliases-package: com.itczh.example.mybatis.entity
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #控制台打印

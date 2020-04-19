@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1/springboot_examples
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss  #日期格式
+    serialization:
+      INDENT_OUTPUT: true             #输出格式化
+      FAIL_ON_EMPTY_BEANS: false      #忽略无法转化到对象
