@@ -1,4 +1,4 @@
-package com.chenzhenhu.springboot.mybatis;
+package com.itczh.example.mybatis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

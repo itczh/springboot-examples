@@ -1,7 +1,7 @@
-package com.chenzhenhu.springboot.mybatis;
+package com.itczh.example.mybatis;
 
-import com.chenzhenhu.springboot.mybatis.entity.UserEntity;
-import com.chenzhenhu.springboot.mybatis.mapper.UserMapper;
+import com.itczh.example.mybatis.entity.UserEntity;
+import com.itczh.example.mybatis.mapper.UserMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

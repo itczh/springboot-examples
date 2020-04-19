@@ -1,4 +1,4 @@
-package com.chenzhenhu.springboot.mybatis.entity;
+package com.itczh.example.mybatis.entity;
 
 import java.io.Serializable;
 

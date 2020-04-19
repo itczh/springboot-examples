@@ -8,10 +8,10 @@
         <version>2.1.13.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.chenzhenhu.springboot</groupId>
-    <artifactId>springboot-mybatis-simple</artifactId>
+    <groupId>com.itczh.examples</groupId>
+    <artifactId>springboot-mybatis-example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-mybatis-simple</name>
+    <name>springboot-mybatis-example</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

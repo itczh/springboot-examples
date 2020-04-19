@@ -1,13 +1,15 @@
-package com.chenzhenhu.springboot.mybatis.mapper;
+package com.itczh.example.mybatis.mapper;
 
-import com.chenzhenhu.springboot.mybatis.entity.UserEntity;
+import com.itczh.example.mybatis.entity.UserEntity;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 @Mapper
+@Repository
 public interface UserMapper {
 
     int insert(UserEntity entity);
