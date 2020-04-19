@@ -12,7 +12,7 @@ import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringbootMybatisSimpleApplicationTests {
+public class SpringbootMybatisApplicationTests {
 
     @Autowired
     private UserMapper userMapper;
